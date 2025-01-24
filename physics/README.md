@@ -1,6 +1,8 @@
 # ***GENERAL INFO: here are physics tasks***
 
+
 ---
+
 
 ## ***DESCRIPTION FOR absolute_black_body.py***
 + This script demonstrates numerical modeling of Planck's radiation laws, verification of Wien's displacement law and the Stefan-Boltzmann law.
@@ -19,7 +21,9 @@
 + **numpy**
 + **matplotlib**
 
+
 ---
+
 
 ## ***DESCRIPTION FOR bownian.py***
 + This script demonstrates modeling the Brownian motion of a particle on a plane using random directions and step lengths.
@@ -40,7 +44,9 @@
 + **numpy**
 + **matplotlib**
 
+
 ---
+
 
 ## ***DESCRIPTION FOR damped_oscillations.py***
 + This script simulates damped oscillations of a mechanical system (spring-mass-damper) based on the numerical solution of the equations of motion using the Euler method.
@@ -51,7 +57,9 @@
 + **numpy**
 + **matplotlib**
 
+
 ---
+
 
 ## ***DESCRIPTION FOR fermat's_principle_of_reflection.py***
 + This script models a test of Fermat's principle using points in a two-dimensional plane and their reflection with respect to a line.
@@ -70,7 +78,9 @@
 4. *Path Comparison*:
    + checks whether Fermat's principle is satisfied by comparing the lengths of two alternative paths.
 
+
 ---
+
 
 ## ***DESCRIPTION FOR forced_oscillations_and_resonance.py***
 + This script models and builds the resonance curve of a system with a harmonic forcing force. The system is a damped oscillator (mass on a spring) with given parameters of mass, stiffness, drag coefficient and amplitude of the forcing force.
@@ -96,7 +106,9 @@
 + **numpy**
 + **matplotlib**
 
+
 ---
+
 
 ## ***DESCRIPTION FOR light_path_time.py***
 + This script calculates the optimal path of light through two environments using Fermat's principle, and finds the minimum travel time of the light path.
@@ -120,7 +132,9 @@
 ## ***REQUIREMENTS***
 + **scipy**
 
+
 ---
+
 
 ## ***DESCRIPTION FOR lissajous_figure.py***
 + This script plots a Lissajous figure - a graphical representation of two harmonic oscillations occurring along mutually perpendicular axes (*X* and *Y*).
@@ -138,7 +152,9 @@
 + **Python 3.7.x**
 + **matplotlib**
 
+
 ---
+
 
 ## ***DESCRIPTION FOR planetary_trajectory.py***
 + This script simulates the motion of a planet around a star in the field of central gravitational force.
@@ -160,7 +176,9 @@
 + **matplotlib**
 + **numpy**
 
+
 ---
+
 
 ## ***DESCRIPTION FOR random_walk.py***
 + This script models a one-dimensional random walk of a particle and calculates the average square of its displacement *S²* as a function of the number of steps *N*.
@@ -179,5 +197,6 @@
 + **Python 3.7.x**
 + **matplotlib**
 + **numpy**
+
 
 ---
