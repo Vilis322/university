@@ -5,12 +5,12 @@
 ## ***DESCRIPTION FOR absolute_black_body.py***
 + This script demonstrates numerical modeling of Planck's radiation laws, verification of Wien's displacement law and the Stefan-Boltzmann law.
 
-### ***The task consists of three parts:***
-1. *Plots the spectral luminosity*
+## ***The task consists of three parts:***
+### 1. *Plots the spectral luminosity*
    + for given temperatures from 500 to 2500 K, the spectral luminosity of a blackbody as a function of frequency is calculated and visualized.
-2. *Testing of Wien's displacement law*
+### 2. *Testing of Wien's displacement law*
    + the maximum frequency of emission for each temperature is calculated, and it is verified that the ratio of temperature to frequency remains approximately constant.
-3. *Testing of the Stefan-Boltzmann law*
+### 3. *Testing of the Stefan-Boltzmann law*
    + the total radiant energy (integral under the plot) for each temperature is calculated;
    + the dependence of the total energy of radiation on temperature to degree 4 is compared.
    
