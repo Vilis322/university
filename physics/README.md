@@ -7,7 +7,7 @@
 
 ## ***The task consists of three parts:***
 ### 1. *Plots the spectral luminosity*
-   + for given temperatures from 500 to 2500 K, the spectral luminosity of a blackbody as a function of frequency is calculated and visualized.
+   #### + for given temperatures from 500 to 2500 K, the spectral luminosity of a blackbody as a function of frequency is calculated and visualized.
 ### 2. *Testing of Wien's displacement law*
    + the maximum frequency of emission for each temperature is calculated, and it is verified that the ratio of temperature to frequency remains approximately constant.
 ### 3. *Testing of the Stefan-Boltzmann law*
