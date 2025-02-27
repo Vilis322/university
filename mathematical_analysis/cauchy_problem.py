@@ -26,9 +26,7 @@ def main():
     y0 = 1
     h = 0.1
     n = 5
-
     x_values, y_values = modified_euler(function, x0, y0, h, n)
-
     print("x-values:", x_values)
     print("y-values:", y_values)
 

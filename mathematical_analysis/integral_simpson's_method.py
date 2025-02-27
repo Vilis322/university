@@ -18,13 +18,9 @@ def main():
     start_point_a = 0
     end_point_b = 5
     step_intervals = 100
-
     step_h = calculation_of_step(start_point_a, end_point_b, step_intervals)
-
     list_of_simpsons_x = simpson_points(start_point_a, step_h, step_intervals)
-
     list_of_function_simpsons_x = function_of_x(list_of_simpsons_x)
-
     result_of_integral = integral_simpson(start_point_a, end_point_b, step_intervals, list_of_function_simpsons_x, step_h)
     print(f"Приближённое значение интеграла: ~ {result_of_integral:.2f}.")
 

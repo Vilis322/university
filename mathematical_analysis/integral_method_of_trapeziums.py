@@ -18,13 +18,9 @@ def main():
     start_point_a = 0
     end_point_b = 5
     step_intervals = 100
-
     step_h = calculation_of_step(start_point_a, end_point_b, step_intervals)
-
     list_of_x_trapeziums = trapeziums_method(start_point_a, step_h, step_intervals)
-
     list_of_function_of_x_trapeziums = function_of_x(list_of_x_trapeziums)
-
     result_of_integral = integral_method_of_trapeziums(list_of_function_of_x_trapeziums, step_h)
     print(f"Приближённое значение интеграла: ~ {result_of_integral:.2f}.")
 
