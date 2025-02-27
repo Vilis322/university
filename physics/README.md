@@ -5,7 +5,7 @@
 ## ***DESCRIPTION FOR absolute_black_body.py***
 + #### This script demonstrates numerical modeling of Planck's radiation laws, verification of Wien's displacement law and the Stefan-Boltzmann law.
 
-## ***The task consists of three parts:***
+## ***The script consists of the following steps:***
 1. #### *Plots the spectral luminosity*
    + #### for given temperatures from 500 to 2500 K, the spectral luminosity of a blackbody as a function of frequency is calculated and visualized.
 2. #### *Testing of Wien's displacement law*
@@ -24,7 +24,7 @@
 ## ***DESCRIPTION FOR bownian.py***
 + This script demonstrates modeling the Brownian motion of a particle on a plane using random directions and step lengths.
 
-## ***The task consists of four parts:***
+## ***The script consists of the following steps:***
 1. #### *Initialization*
    + the particle starts moving from the starting point (0, 0).
 2. #### *Parameters*
@@ -60,7 +60,7 @@
 + **point B**: end point;
 + **point C**: intermediate point (line for reflection).
 
-## ***The task consists of four parts:***
+## ***The script consists of the following steps:***
 1. #### *Calculating the distance between points*:
    + the formula fot the distance between two points in a plane is used.
 2. #### *Calculating the total path*:
@@ -75,7 +75,7 @@
 ## ***DESCRIPTION FOR forced_oscillations_and_resonance.py***
 + This script models and builds the resonance curve of a system with a harmonic forcing force. The system is a damped oscillator (mass on a spring) with given parameters of mass, stiffness, drag coefficient and amplitude of the forcing force.
 
-## ***The task consists of five parts:***
+## ***The script consists of the following steps:***
 1. #### *System parameters*:
    + mass (*m*), spring stiffness (*k*), coefficient of resistance (*r*), amplitude of the forcing force (*Fm*);
    + initial conditions for the position (*x0*) and velocity (*v0*);
@@ -101,7 +101,7 @@
 ## ***DESCRIPTION FOR light_path_time.py***
 + This script calculates the optimal path of light through two environments using Fermat's principle, and finds the minimum travel time of the light path.
 
-## ***The task consists of five parts:***
+## ***The script consists of the following steps:***
 1. #### *The speed of light in the environment*:
    + the function *light_speed_in_the_environment* calculates the speed of light in an environment with a given refractive index *n*, where *c* is the speed of light in vacuum.
 2. #### *Time function*:
@@ -125,7 +125,7 @@
 ## ***DESCRIPTION FOR lissajous_figure.py***
 + This script plots a Lissajous figure - a graphical representation of two harmonic oscillations occurring along mutually perpendicular axes (*X* and *Y*).
 
-## ***The task consists of three parts:***
+## ***The script consists of the following steps:***
 1. #### *Time initialization*:
    + a time array is created as a sequence of uniformly distributed values for the interval from 0 to *t_max*.
 2. #### *Calculation of X and Y coordinates*:
@@ -144,7 +144,7 @@
 + This script simulates the motion of a planet around a star in the field of central gravitational force.
 + The calculations are performed by Euler method and the results are visualized in the form of the planet orbit on the plot.
 
-## ***The task consists of three parts:***
+## ***The script consists of the following steps:***
 1. #### *Initialization of initial parameters*:
    + known physical parameters are used: gravitational constant, mass of the star and planet, initial coordinates and velocities.
 2. #### *Solving the equations of motion using the Euler's method*:
@@ -165,7 +165,7 @@
 ## ***DESCRIPTION FOR random_walk.py***
 + This script models a one-dimensional random walk of a particle and calculates the average square of its displacement *S²* as a function of the number of steps *N*.
 
-## ***The task consists of three parts:***
+## ***The script consists of the following steps:***
 1. #### *Random Step Generation*:
    + for each value of N from a given range, a random wandering of the particle is modeled;
    + the steps take the values -1 or +1 with equal probability.

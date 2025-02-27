@@ -50,7 +50,7 @@
     + prints the GCD and LCM of two given numbers.
 
 ## ***REQUIREMENTS***
-+ *Python 3.x*
++ **Python 3.x**
 
 ---
 
@@ -58,7 +58,73 @@
 + #### This script generates a truth table for the logical operation "NOR" (NOT OR) for two boolean inputs A and B.
 
 ## ***REQUIREMENTS***
-+ *Python 3.x*
++ **Python 3.x**
 
 ---
 
+## ***DESCRIPTION FOR prime_checker.py***
++ #### This script checks whether a given number is prime.
+
+## ***The script consists of the following steps:***
+1. #### *Initial Validation*
+   + the number 2 is prime, while any other even number is not.
+2. #### *Divisibility Check*
+   + the algorithm checks divisibility only up to the square root of the number;
+   + iterates through odd numbers starting from 3, skipping even numbers to improve efficiency;
+   + if a divisor is found, the number os not prime.
+   
+3. #### *Result*
+   + the script prints whether the given numbers are prime based on the performed checks.
+
+## ***REQUIREMENTS***
++ **Python 3.x**
+
+---
+
+## ***DESCRIPTION FOR prime_factorization.py***
++ The script finds the prime factorization of a given number using the Sieve of Eratosthenes.
+
+## ***The script consists of the following steps:***
+1. #### *Generating Prime Numbers*
+   + uses the Sieve of Eratosthenes to generate all prime numbers up to the square root of the given number;
+   + marks non-prime numbers by iterating through multiplies of each prime;
+   + collects all remaining prime numbers for use in factorization.
+2. #### *Factorization Process*
+   + iterates through the list of generated prime numbers;
+   + repeatedly divides the given number by a prime if it is a factor;
+   + appends each prime factor to a list;
+   + if the remaining number after division is greater than 1, it is also added as a factor.
+3. #### *Result*
+   + prints the prime factorization of the given number as a list of prime factors.
+
+## ***REQUIREMENTS***
++ **Python 3.x**
+
+---
+
+## ***DESCRIPTION FOR sheffer_stroke.py****
++ This script generates a truth table for the logical operation "NAND" (NOT AND) for two boolean inputs A and B.
+
+## ***REQUIREMENTS***
++ **Python 3.x**
+
+---
+
+## ***DESCRIPTION FOR sieve_of_eratosthenes.py***
++ This script generates all prime numbers up to a given limit using the Sieve of Eratosthenes algorithm.
+
+## ***The script consists of the following steps:***
+1. #### *Initialization*
+   + creates a list where each index represents a number, initially marking all as prime;
+   + sets 0 and 1 as nin-prime since prime numbers start from 2.
+2. #### *Prime Identification*
+   + iterates through numbers up to the square root of the limit;
+   + if a number is still marked as prime, its multiples are marked as non-prime;
+   + this process eliminates nin-prime numbers efficiently.
+3. #### *Result*
+   + collects all numbers that remain marked as prime;
+   + prints the list of prime numbers up to the given limit.
+
+## ***REQUIREMENTS***
++ **Python 3.x**
+   
