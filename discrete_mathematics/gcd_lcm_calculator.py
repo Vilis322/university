@@ -11,10 +11,8 @@ def lcm(a, b):
 def main():
     a = 236236346342632632
     b = 12523425645364364356
-
     greatest_common_divisor = gcd(a, b)
     least_common_multiple = lcm(a, b)
-
     print(f"НОД({a}, {b}) = {greatest_common_divisor}")
     print(f"НОК({a}, {b}) = {least_common_multiple}")
 

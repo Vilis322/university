@@ -16,12 +16,10 @@ def sieve_of_eratosthenes(limit):
 def prime_factorization(n):
     primes = sieve_of_eratosthenes(int(n ** 0.5) + 1)
     factors = []
-
     for prime in primes:
         while n % prime == 0:
             factors.append(prime)
             n //= prime
-
     if n > 1:
         factors.append(n)
 
