@@ -1,4 +1,4 @@
-# Servo Lock with Button, LEDs and Buzzer
+# Servo Lock with Button, LEDs and Buzzer – Arduino/Tinkercad
 
 Electronic lock controlled by a push button. A servo rotates to open/close, LEDs show the state, and the buzzer gives feedback.
 

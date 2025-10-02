@@ -1,4 +1,4 @@
-# Morse LED (Arduino)
+# Morse LED – Arduino/Tinkercad
 
 This Arduino project blinks an LED on pin 13 using Morse code to transmit "SOS" (`... --- ...`).
 

@@ -1,4 +1,4 @@
-# Binary LED (4-bit) – Arduino
+# Binary LED (4-bit) – Arduino/Tinkercad
 
 Displays a number (0–15) as a 4-bit binary value on four LEDs connected to pins 7, 6, 5, 4.  
 If the input is out of range, all LEDs blink three times.
