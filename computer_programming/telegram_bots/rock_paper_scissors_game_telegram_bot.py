@@ -2,7 +2,7 @@ import telebot
 import random
 from telebot import types
 
-bot = telebot.TeleBot("6396590724:AAHQykNae6tY3MD8C8Wxe9ipeb1t_tqfAlE")
+bot = telebot.TeleBot("TOKEN")
 
 user_score = 0
 bot_score = 0

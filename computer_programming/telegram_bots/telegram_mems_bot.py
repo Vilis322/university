@@ -5,7 +5,7 @@ import glob
 import random
 
 
-bot = telebot.TeleBot("6396590724:AAHQykNae6tY3MD8C8Wxe9ipeb1t_tqfAlE")
+bot = telebot.TeleBot("TOKEN")
 
 image_folder_path = 'mems'
 image_files = glob.glob(os.path.join(image_folder_path, '*jpg'))

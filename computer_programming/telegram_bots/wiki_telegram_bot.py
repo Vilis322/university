@@ -57,4 +57,4 @@ class BotStateMachine:
 
 
 if __name__ == "__main__":
-    bot = BotStateMachine("6396590724:AAHQykNae6tY3MD8C8Wxe9ipeb1t_tqfAlE")
+    bot = BotStateMachine("TOKEN")
