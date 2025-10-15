@@ -72,7 +72,7 @@ venv:
 install: venv
 	@$(call VENV_RUN,-m pip install -r requirements.txt)
 	@$(call VENV_RUN,-m pip install -e .)
-	@$(call VENV_RUN,-c "import sys; print('Installed to:', sys.executable)")
+	@$(call VENV_RUN,-c "import sys; print(\"Installed to:\", sys.executable)")
 	@echo "Install complete."
 
 reinstall: venv
