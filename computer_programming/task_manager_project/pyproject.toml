@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task-manager-course"
+version = "0.1.0"
+description = "Mini task manager CLI for Python collections practice"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Kyrylo Pryiomyshev" }]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["task_manager*"]
