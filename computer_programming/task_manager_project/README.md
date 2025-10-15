@@ -49,6 +49,9 @@ make test
 
 # 4) Coverage report
 make cov
+
+# 5) Command usage
+make help
 ```
 # ***Quick start (without Make)***
 ```bash
