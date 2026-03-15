@@ -52,3 +52,72 @@ htmlcov/
 *.pdb
 core
 a.out
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+out/
+
+# C#
+*.dll
+*.pdb
+*.mdb
+*.cache
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+
+# JavaScript / TypeScript
+node_modules/
+*.tsbuildinfo
+.npm
+.eslintcache
+
+# IDEs
+## JetBrains (IntelliJ IDEA, PyCharm, WebStorm, Rider)
+.idea/
+*.iml
+.kotlin
+cmake-build-*/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
