@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Budget.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">software-testing-lab3</a> &gt; <a href="index.source.html" class="el_package">zoo</a> &gt; <span class="el_source">Budget.java</span></div><h1>Budget.java</h1><pre class="source lang-java linenums">package zoo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Budget {
+
+    private final String animalName;
+    private double totalBudget;
+    private double spent;
+<span class="fc" id="L11">    private final List&lt;Order&gt; pendingOrders = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L12">    private final List&lt;BudgetRequest&gt; requests = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L14">    public Budget(String animalName, double totalBudget) {</span>
+<span class="fc" id="L15">        this.animalName = animalName;</span>
+<span class="fc" id="L16">        this.totalBudget = totalBudget;</span>
+<span class="fc" id="L17">        this.spent = 0;</span>
+<span class="fc" id="L18">    }</span>
+
+    public String getAnimalName() {
+<span class="nc" id="L21">        return animalName;</span>
+    }
+
+    public double getTotalBudget() {
+<span class="fc" id="L25">        return totalBudget;</span>
+    }
+
+    public double getSpent() {
+<span class="fc" id="L29">        return spent;</span>
+    }
+
+    public double getReserved() {
+<span class="fc" id="L33">        return pendingOrders.stream()</span>
+<span class="fc bfc" id="L34" title="All 2 branches covered.">                .filter(o -&gt; !o.isArrived())</span>
+<span class="fc" id="L35">                .mapToDouble(Order::getInvoiceTotal)</span>
+<span class="fc" id="L36">                .sum();</span>
+    }
+
+    public double getRemaining() {
+<span class="fc" id="L40">        return totalBudget - spent - getReserved();</span>
+    }
+
+    public void addSpent(double amount) {
+<span class="fc" id="L44">        this.spent += amount;</span>
+<span class="fc" id="L45">    }</span>
+
+    public void increaseBudget(double amount) {
+<span class="fc" id="L48">        this.totalBudget += amount;</span>
+<span class="fc" id="L49">    }</span>
+
+    public void addPendingOrder(Order order) {
+<span class="fc" id="L52">        pendingOrders.add(order);</span>
+<span class="fc" id="L53">    }</span>
+
+    public List&lt;Order&gt; getPendingOrders() {
+<span class="fc" id="L56">        return pendingOrders;</span>
+    }
+
+    public void addRequest(BudgetRequest request) {
+<span class="fc" id="L60">        requests.add(request);</span>
+<span class="fc" id="L61">    }</span>
+
+    public List&lt;BudgetRequest&gt; getRequests() {
+<span class="fc" id="L64">        return requests;</span>
+    }
+
+    public boolean wouldExceedBudget(double orderTotal) {
+<span class="pc bpc" id="L68" title="1 of 2 branches missed.">        return orderTotal &gt; getRemaining();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
