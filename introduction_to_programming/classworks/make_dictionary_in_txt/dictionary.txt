@@ -1,6 +1,0 @@
-orange	апельсин
-apple	яблоко
-zcv	asf
-i	я
-did	сделал
-it	это
