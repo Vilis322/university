@@ -1,0 +1,10 @@
+string = "Abrakadabra"
+print(string[1])
+print(string[-2])
+print(string[0:6])
+print(string[0:-3])
+print(string[0::2])
+print(string[1::2])
+print(string[::-1])
+print(string[-1::-2])
+print(len(string))

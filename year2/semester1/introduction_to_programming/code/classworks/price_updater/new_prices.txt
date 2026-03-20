@@ -1,0 +1,6 @@
+bananas
+0.99
+tomatos
+2.99
+yellow plumps
+3.99
