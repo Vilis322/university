@@ -122,3 +122,9 @@ _ReSharper*/
 # OS
 .DS_Store
 Thumbs.db
+
+# Large binaries (kept locally if needed, not tracked in git)
+*.iso
+*.apk
+*.dmg
+*.img
