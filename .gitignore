@@ -128,3 +128,6 @@ Thumbs.db
 *.apk
 *.dmg
 *.img
+
+# Estonian language coursework (kept locally, not tracked)
+year2/semester1/estonian_grammar/
